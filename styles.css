@@ -36,6 +36,7 @@ body{
 
 .left .img_holder img{
 	width: 200px;
+	height: 200px;
 	border-radius: 30px;
 	box-shadow: 3px 3px 10px rgba(170, 164, 164, 0.5);
 	cursor: pointer;
@@ -43,8 +44,12 @@ body{
 	user-select: none;
 }
 .left .img_holder img:hover{
+	width: 400px;
+	height: 400px;
 	transform: scale(1.05);
 	box-shadow: 3px 3px 20px rgba(180, 172, 172, 0.5);
+	border-radius: 195px;
+
 }
 
 .pb{
@@ -271,4 +276,13 @@ button:hover{
 	box-shadow: 0 0 6px rgb(11, 195, 241);
 	color: #fff;
 }
-
+.info{
+	cursor: pointer;
+	transition: .5s;
+}
+.info:hover{
+	background-color: rgb(255, 255, 255) !important;
+	box-shadow: 0 0 6px rgb(11, 195, 241);
+	color: rgb(0, 0, 0);
+	transform: scale(1.1);
+}
